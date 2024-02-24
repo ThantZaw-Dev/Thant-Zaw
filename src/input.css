@@ -149,6 +149,15 @@
     .width-80{
       width: 90%;
     }
+
+    .h-service-photo{
+      height: 400px;
+      
+    }
+
+    .w-service-photo{
+      width: 600px;
+    }
     .h-98{
       height: 450px !important;
     }
