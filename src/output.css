@@ -685,6 +685,10 @@ video {
   height: 2rem;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
