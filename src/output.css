@@ -1190,6 +1190,10 @@ html {
     order: -9999;
   }
 
+  .md\:order-last {
+    order: 9999;
+  }
+
   .md\:mb-0 {
     margin-bottom: 0px;
   }
@@ -1240,6 +1244,10 @@ html {
 
   .md\:items-center {
     align-items: center;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
   }
 
   .md\:space-x-0 > :not([hidden]) ~ :not([hidden]) {
