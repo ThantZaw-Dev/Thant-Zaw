@@ -1080,10 +1080,6 @@ html {
   background-color: #1f4167;
 }
 
-.width-80{
-  width: 90%;
-}
-
 .border-red-900{
   border:3px solid red;
 }
@@ -1099,6 +1095,10 @@ html {
 
   .vh-50{
     height: 50vh;
+  }
+
+  .width-80{
+    width: 90%;
   }
 }
 
