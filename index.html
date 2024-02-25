@@ -20,7 +20,7 @@
   }
 </style>
 <body>
-  <nav class=" fixed w-full z-20 top-0 start-0 dark:border-gray-700">
+  <nav class=" fixed w-full z-20 top-0 start-0 dark:border-gray-700 site-nav">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="./src/img/Logo.png" class="h-12 md:h-12" alt="Tz Logo">
@@ -129,11 +129,11 @@
           <!-- About Section End -->
     
           <!-- Services  -->
-          <div class="text-center mb-3" id="services">
+          <section class="text-center mb-3" id="services">
             <h3 class="prompt-regular text-2xl uppercase text-indigo-700 tracking-widest">Services</h3>
-          </div>
+          </section>
           
-          <section class="grid md:grid-cols-2 grid-cols-1 " id="about">
+          <div class="grid md:grid-cols-2 grid-cols-1 " id="about">
             <div class="order border-indigo-900 flex justify-center  items-center md:p-0 p-3">
               <div class="p-3">
                 <img src="./src/img/backend.gif" alt="" class="h-service-photo rounded-lg">
@@ -153,9 +153,9 @@
                 </div>
               </div>
             </div>
-          </section>
+          </div>
 
-          <section class="grid md:grid-cols-2 grid-cols-1 mb-5" id="about">
+          <div class="grid md:grid-cols-2 grid-cols-1 mb-5" id="about">
             <div class="flex justify-center items-center md:p-0 p-3 md:order-last order-fast">
               <div class="p-3">
                 <img src="./src/img/frontend-dev.gif" alt="" class="h-service-photo w-service-photo rounded-lg">
@@ -175,15 +175,15 @@
                 </div>
               </div>
             </div>
-          </section> 
+          </div> 
           <!-- Services End  -->
 
           <!-- Project  -->
-          <div class="text-center mb-4 py-3" id="projects">
+          <section class="text-center mb-4 py-3" id="projects">
             <h3 class="prompt-regular text-2xl uppercase text-indigo-700 tracking-widest">Projects</h3>
-          </div>
+          </section>
 
-          <section class="grid md:grid-cols-4 grid-cols-1 gap-2 px-2 mb-5">
+          <div class="grid md:grid-cols-4 grid-cols-1 gap-2 px-2 mb-5">
             <div class="p-1">
                 <div class="h-98 max-w-sm rounded overflow-hidden shadow-lg">
                   <img class="w-full" src="./src/img/visionglobalmyanmar.png" alt="Sunset in the mountains">
@@ -248,7 +248,7 @@
                 </div>
               </div>
             </div>
-          </section>
+          </div>
           <!-- Project End  -->
 
           <!-- Contact  -->
@@ -270,7 +270,7 @@
           <!-- Contact End  -->
 
           <!-- Footer  -->
-          <section class="grid md:grid-cols-2 h-40" id="contact">
+          <footer class="grid md:grid-cols-2 h-40">
             <div class="px-4 flex items-center">
               <div class="flex ml-8 items-center">
                 <img src="./src/img/Logo.png" class="h-14 md:h-16" alt="Tz Logo">
@@ -295,7 +295,7 @@
                 </div>
               </div>
             </div>
-          </section>
+          </footer>
           <!-- Footer End  -->
       </div>
     </div>
@@ -303,4 +303,10 @@
 
 </body>
 <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
+
+<script src="./dist/bundle.js"></script>
+
+<script>
+
+</script>
 </html>
