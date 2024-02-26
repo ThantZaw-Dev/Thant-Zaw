@@ -197,6 +197,10 @@
     background-color: #1f4167;
   }
 
+  .bg-secondary{
+    background-color: #345c89;
+  }
+
   
 
   .border-red-900{
@@ -232,4 +236,9 @@
     .h-98{
       height: 500px !important;
     }
+
+    .md-bg-transparent{
+      background-color: transparent !important;
+    }
+
   }
